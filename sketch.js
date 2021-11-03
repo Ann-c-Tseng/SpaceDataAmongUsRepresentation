@@ -2,7 +2,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background('#000000');
   noStroke();
-  loadJSON("http://api.open-notify.org/astros.json", dataReceived);
+  loadJSON("astros.json", dataReceived);
 
   img = createImg('./amongus.png');
   img.hide();
